@@ -42,7 +42,7 @@
 	<target name="build" description="Compiles using the release configuration">
 		<echo message="Building solution via msbuild task." />
 		
-		<loadtasks assembly="C:\Tools\nantcontrib-0.91-bin\nantcontrib-0.91\bin\NAnt.Contrib.Tasks.dll" />
+		<loadtasks assembly="C:\Program Files (x86)\nant-0.92\nantcontrib-0.92\bin\NAnt.Contrib.Tasks.dll" />
 		
 		<msbuild project=".\BugNET.sln">
 			<arg value="/p:Configuration=Release" />
